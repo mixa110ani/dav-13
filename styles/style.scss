@@ -1,0 +1,57 @@
+@import "resetstyle";
+@import "variables";
+@import "mixins";
+
+
+header{
+    @include header;
+    nav{
+        @include nav;
+        ul{
+            @include ul;
+            li{
+                @include list;
+            }
+        }
+        img{
+            @include headimage;
+        }
+    }
+        
+}
+
+main{
+    h1{
+        @include satauri;
+    }
+    #e{
+        @include text;
+    }
+
+    #full{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        #gverdit{
+            @include gverdits;
+            .card{
+                @include cards;
+                .surati{
+                    @include suratiss;
+                    p{
+                        @include pp;
+                    }
+                    .text2{
+                        .teqst1{
+                            @include text2;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    
+
+}

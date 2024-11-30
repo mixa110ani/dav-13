@@ -1,0 +1,87 @@
+@import "variables";
+
+
+@mixin header() {
+    position: fixed;
+    width: 100%;
+	z-index: 5;
+    display: flex;
+    justify-content: flex-start;
+}
+@mixin nav() {
+        display: flex;
+        justify-content:space-between;
+        margin-left: 137px;
+}
+@mixin list(){
+    font-size: $font-size-head;
+    font-family: $font-stack;
+    font-weight: $font-weight-big;
+    display: inline;
+}
+
+@mixin ul(){
+            display:flex;
+            justify-content:space-between;
+            list-style-type: none;
+            width: 332px;
+            margin-top: 21px;
+}
+
+@mixin headimage(){
+    width: 32px;
+    height: 32px;
+    margin-left: 29px;
+    border-radius: 100%;
+    margin-top: 12px;
+}
+
+@mixin satauri(){
+        font-size: $font-size-h1;
+        font-weight: $font-weight-big;
+        font-family: $font-stack;
+        margin-top: 42px;
+	    margin-left: 137px;
+        margin-bottom: 27px;
+}
+
+@mixin gverdits(){
+    height: 357px;
+    width: 1166px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin cards(){
+    height: 724px;
+    width:362px;
+    border-radius: $radius-photo;
+}
+
+@mixin suratiss($imgpath,$position:0 0,$repeat: no-repeat){
+    
+   
+    color: white;
+    font-size:$font-stack;
+    font-weight:$font-weight-big;
+    
+
+}
+
+
+@mixin text(){
+    color: $color-text;
+    font-size:$font-size-mini;
+    font-family: $font-stack;
+    font-weight: $font-weight-big;
+    margin: $margin-surati;
+
+}
+
+@mixin pp(){
+    margin-top: 32px;
+    margin-left: 42px;
+    font-weight: $font-weight-big;
+    font-family: $font-stack;
+
+}
