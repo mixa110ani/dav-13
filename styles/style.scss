@@ -24,34 +24,181 @@ main{
     h1{
         @include satauri;
     }
-    #e{
-        @include text;
-    }
-
     #full{
-        width: 100%;
-        display: flex;
-        justify-content: center;
+        @include full;
         #gverdit{
-            @include gverdits;
+            @include gver;
             .card{
                 @include cards;
                 .surati{
                     @include suratiss;
-                    p{
-                        @include pp;
+                    .erm{
+                        padding-top: 31px;
+                        padding-left: 41px;
                     }
-                    .text2{
-                        .teqst1{
-                            @include text2;
+                    
+                    
+                }
+                .text2{
+                    .teqst1{
+                        @include text;
+                    }
+                    .clock{
+                        @include clock;
+                        img{
+                            @include clockimg;
                         }
-
                     }
                 }
+                
+
             }
+
         }
     }
 
+    .card2{
+        @include cards;
+        .surati2{
+            @include suratiss;
+            background-image: url(./../images/bridge.png);
+            .erm{
+                padding-top: 31px;
+                padding-left: 41px;
+            }
+            
+            
+        }
+        .text2{
+            .teqst1{
+                @include text;
+            }
+            .clock{
+                @include clock;
+                img{
+                    @include clockimg;
+                }
+            }
+        }
+        
+
+    }
+    .card3{
+        @include cards;
+        .surati3{
+            @include suratiss;
+            background-image: url(./../images/ice.png);
+            .erm{
+                padding-top: 31px;
+                padding-left: 41px;
+            }
+            
+            
+        }
+        .text2{
+            .teqst1{
+                @include text;
+            }
+            .clock{
+                @include clock;
+                img{
+                    @include clockimg;
+                }
+            }
+        }
+    
+    }
+
+    h2{
+        @include satauri;
+    }
+
+    #mshobeli{
+        @include mshobeli;
+        #big{
+            display: flex;
+            flex-direction: column;
+            gap: 41px;
+            #big1{
+                @include big;
+                background-image: url("./../images/LA.png");
+                background-size: $background-size-big;
+                
+                  
+                
+            }
+            #big2{
+                @include big;
+                background-image: url("./../images/wild.png");
+                background-size: $background-size-big;
+                
+                  
+                
+            }
+
+        }
+
+        #small{
+            display: flex;
+            flex-direction: column;
+            gap: 98px;
+            #small1{
+                @include small;
+                background-image: url("./../images/forest.png");
+                background-size: $background-size-small;
+                border-radius: $radius-photo;
+
+            }
+            #small2{
+                @include small;
+                background-image: url("./../images/elephant.png");
+                background-size: $background-size-small;
+                border-radius: $radius-photo;
+            }
+            #small3{
+                @include small;
+                background-image: url("./../images/tower.png");
+                background-size: $background-size-small;
+                border-radius: $radius-photo;
+            }
+        }
+
+
+    }
+
+       
+
+    }
+
+    footer{
+        @include footers;
+        #inf{
+            ul{
+                @include lulu;
+            }
+            
+        }
+        #inf2{
+            ul{
+                @include lulu($margin-left:96px);
+            }
+            
+        }
+        #inf3{
+            ul{
+                @include lulu($margin-left:108px);
+            }
+            
+        }
+        #bolo{
+            @include bolo;
+        }
+
+        #geolab{
+            @include geolab;
+
+        }
+    }
     
 
-}
+    

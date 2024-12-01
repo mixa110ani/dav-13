@@ -50,10 +50,10 @@ table {
 
 header {
   position: fixed;
-  width: 100%;
+  width: 65%;
   z-index: 5;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 header nav {
   display: flex;
@@ -86,6 +86,273 @@ main h1 {
   font-weight: 700;
   font-family: "Roboto", serif;
   margin-top: 42px;
-  margin-left: 137px;
+  margin-left: 692px;
   margin-bottom: 27px;
+}
+main #full {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main #full #gverdit {
+  height: 357px;
+  width: 1166px;
+  display: flex;
+  justify-content: space-between;
+}
+main #full #gverdit .card {
+  width: 362px;
+}
+main #full #gverdit .card .surati {
+  background-repeat: no-repeat;
+  background-image: url("./../images/beach.png");
+  background-size: 362px 186px;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  width: 362px;
+  height: 186px;
+  border-radius: 5px;
+}
+main #full #gverdit .card .surati .erm {
+  padding-top: 31px;
+  padding-left: 41px;
+}
+main #full #gverdit .card .text2 .teqst1 {
+  color: #8A8787;
+  font-size: 10px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  margin-top: 68px;
+  border-radius: 5px;
+}
+main #full #gverdit .card .text2 .clock {
+  display: flex;
+  width: 164px;
+  gap: 11px;
+  margin-top: 14px;
+  color: #8A8787;
+  font-size: 10px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  border-radius: 5px;
+}
+main #full #gverdit .card .text2 .clock img {
+  width: 16px;
+  height: 16px;
+  margin-top: -3px;
+}
+main .card2 {
+  width: 362px;
+}
+main .card2 .surati2 {
+  background-repeat: no-repeat;
+  background-image: url("./../images/beach.png");
+  background-size: 362px 186px;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  width: 362px;
+  height: 186px;
+  border-radius: 5px;
+  background-image: url(./../images/bridge.png);
+}
+main .card2 .surati2 .erm {
+  padding-top: 31px;
+  padding-left: 41px;
+}
+main .card2 .text2 .teqst1 {
+  color: #8A8787;
+  font-size: 10px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  margin-top: 68px;
+  border-radius: 5px;
+}
+main .card2 .text2 .clock {
+  display: flex;
+  width: 164px;
+  gap: 11px;
+  margin-top: 14px;
+  color: #8A8787;
+  font-size: 10px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  border-radius: 5px;
+}
+main .card2 .text2 .clock img {
+  width: 16px;
+  height: 16px;
+  margin-top: -3px;
+}
+main .card3 {
+  width: 362px;
+}
+main .card3 .surati3 {
+  background-repeat: no-repeat;
+  background-image: url("./../images/beach.png");
+  background-size: 362px 186px;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  width: 362px;
+  height: 186px;
+  border-radius: 5px;
+  background-image: url(./../images/ice.png);
+}
+main .card3 .surati3 .erm {
+  padding-top: 31px;
+  padding-left: 41px;
+}
+main .card3 .text2 .teqst1 {
+  color: #8A8787;
+  font-size: 10px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  margin-top: 68px;
+  border-radius: 5px;
+}
+main .card3 .text2 .clock {
+  display: flex;
+  width: 164px;
+  gap: 11px;
+  margin-top: 14px;
+  color: #8A8787;
+  font-size: 10px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  border-radius: 5px;
+}
+main .card3 .text2 .clock img {
+  width: 16px;
+  height: 16px;
+  margin-top: -3px;
+}
+main h2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Roboto", serif;
+  margin-top: 42px;
+  margin-left: 692px;
+  margin-bottom: 27px;
+}
+main #mshobeli {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  justify-content: center;
+}
+main #mshobeli #big {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+}
+main #mshobeli #big #big1 {
+  background-repeat: no-repeat;
+  padding: 203px 278px;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  border-radius: 5px;
+  background-image: url("./../images/LA.png");
+  background-size: 758px 430px;
+}
+main #mshobeli #big #big2 {
+  background-repeat: no-repeat;
+  padding: 203px 278px;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  border-radius: 5px;
+  background-image: url("./../images/wild.png");
+  background-size: 758px 430px;
+}
+main #mshobeli #small {
+  display: flex;
+  flex-direction: column;
+  gap: 98px;
+}
+main #mshobeli #small #small1 {
+  width: 362px;
+  height: 212px;
+  background-image: url("./../images/forest.png");
+  background-size: 362px 212px;
+  border-radius: 5px;
+}
+main #mshobeli #small #small2 {
+  width: 362px;
+  height: 212px;
+  background-image: url("./../images/elephant.png");
+  background-size: 362px 212px;
+  border-radius: 5px;
+}
+main #mshobeli #small #small3 {
+  width: 362px;
+  height: 212px;
+  background-image: url("./../images/tower.png");
+  background-size: 362px 212px;
+  border-radius: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 201px;
+  background-color: #243043;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer #inf ul {
+  margin-top: 59px;
+  margin-left: 137px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 12px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  color: #818687;
+}
+footer #inf2 ul {
+  margin-top: 59px;
+  margin-left: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 12px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  color: #818687;
+}
+footer #inf3 ul {
+  margin-top: 59px;
+  margin-left: 108px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 12px;
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  color: #818687;
+}
+footer #bolo {
+  margin-top: 59px;
+  margin-left: 112px;
+  font-family: "Roboto", serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+footer #geolab {
+  width: 38px;
+  height: 40px;
+  margin-left: 416px;
+  margin-top: 58px;
 }/*# sourceMappingURL=style.css.map */
